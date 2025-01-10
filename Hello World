@@ -1,13 +1,12 @@
-//Programmer: Justin Ryland
+//Programmer: Andrew Caruso
 //Date: 1.8.2025
 //Program: Hello World
 //Hardware: Bolt #SB-B0D0
 
 async function startProgram() {
-	await speak("Hello World", true);
-	setMainLed({ r: 0, g: 0, b: 255});
+	await speak("I will beat the race", true);
+	setMainLed({ r: 255, g: 0, b: 0});
 	setSpeed(60);
-	await delay (2);
+	await delay (3.25);
 	setSpeed(0);
-
 }
