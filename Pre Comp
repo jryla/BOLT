@@ -6,7 +6,7 @@
 //Start
 async function startProgram() {
 
-/*
+
 //Bolt will say Start across the LED's
 //Driver: Justin Ryland
 //Navigator: Andrew Caruso
@@ -31,7 +31,7 @@ async function startProgram() {
 	await roll(90, 0, 1);
 	await roll(90, 200, 2);
 
-*/
+
 //Play Sound
 //Driver: Andrew Caruso
 //Navigator: Justin Ryland
