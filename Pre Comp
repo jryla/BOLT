@@ -41,8 +41,21 @@ async function startProgram() {
 //Figure Eight
 //Driver: Justin Ryland
 //Navigator: Andrew Caruso
+	async function figureEight() {
+		const speed = 100;
+		const radius = 50;
+		const angle = 360;
+		const time = 4000;
+
+	while (true) {
+		await arc(speed, -radius, angle, time);
+		await arc(speed, radius, angle, time);
 
 
+		}
+	}
+
+	figureEight();
 
 //Star
 //Driver: Justin Ryland
